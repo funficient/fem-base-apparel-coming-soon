@@ -130,4 +130,8 @@ p {
   width: 100%;
 }
 
-
+@media (max-width: 375px) {
+  main {
+    grid-template-columns: 1fr;
+    
+}
